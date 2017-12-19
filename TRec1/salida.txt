@@ -1,0 +1,26 @@
+Primer test: el ejemplo del enunciado
+receptor: primera recepcion (hito 1)
+emisor 1: primera emision (hito 2)
+emisor 1: mensaje recibido
+receptor: se recibio correctamente primer mensaje de emisor 1 (hito 2)
+emisor 1: segunda emision (hito 3)
+emisor 3: emision (hito 4)
+emisor 2: emision (hito 5)
+receptor: segunda recepcion (hito 6)
+emisor 2: mensaje recibido
+receptor: se recibio correctamente mensaje de emisor 2 (hito 5)
+receptor: tercera recepcion (hito 7)
+emisor 1: mensaje recibido
+receptor: se recibio correctamente segundo mensaje de emisor 1 (hito 3)
+receptor: cuarta recepcion (hito 8)
+emisor 3: mensaje recibido
+receptor: se recibio correctamente mensaje de emisor 3 (hito 4)
+Segundo test: robustez
+
+
+Revise que la salida de este programa coincide con salida.txt
+Para ello ejecute lo siguiente:
+   % ./test-casilla > mi-salida.txt
+   % diff salida.txt mi-salida.txt
+   %
+Si diff notifica alguna diferencia, su programa *no* funciona
